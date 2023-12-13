@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    padding: 0px 10px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* global button */
+.u-button{
+    padding: 5px 15px;
+    color: white;
+    background-color: #00a759;
+    border: 0px;
+}
+/* landing-page-button */
+
+.s-button{
+    padding: 5px 15px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.s-button:hover{
+    background-color: #00a759;
+    color: white;
+    transition: 0.5s;
+}
+
+
