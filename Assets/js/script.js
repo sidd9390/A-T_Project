@@ -1,5 +1,13 @@
 let frame = document.getElementById("my_frame");
 frame.addEventListener('scroll', changeBg());
+var h = window.innerHeight;
+console.log(h);
+var temp1 = document.getElementById('sp1').offsetHeight;
+let temp2 = document.getElementById('border').offsetHeight;
+console.log(temp1,temp2);
+let total_height = h-(temp1+temp2);
+console.log(total_height);
+frame.style.height = ((total_height) + "px");
 function changeBg()
 {
   var navbar = document.getElementById('border');
