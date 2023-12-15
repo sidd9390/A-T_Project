@@ -1,15 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="padding: 0px 0px;">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>A&T</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/Img/fav-icon.png">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
     <div class="top_logo">
-        <div class="row">
+        <div class="row m-0">
             <div class="col-6 d-flex align-items-center">
                 <img src="./Assets/Img/logo2.png" class="img-fluid" style="width: 330px;" alt="Logo">
             </div>
@@ -23,28 +24,29 @@
         </div>
     </div>
     <div class="Navbar">
-        <nav class="navbar navbar-expand-lg pt-0">
+        <nav class="navbar navbar-expand-lg pt-0" style="width: 100%; padding: 0px 10px;" id="border" >
             <div class="">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" style="padding: 5px 5px; border: 0px; outline-color: transparent;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav fw-semibold">
-                  <a class="nav-link" target="iframe_a" href="Home.html">ABOUT</a>
-                  <a class="nav-link" target="iframe_a" href="Product.html">PRODUCT</a>
-                  <a class="nav-link" target="iframe_a" href="Distribution.html">DISTRIBUTION </a>
-                  <a class="nav-link" target="iframe_a" href="Services_consultancy.html">SERVICES & CONSULTANCY</a>
-                  <a class="nav-link" target="iframe_a" href="Knowledge-center.html">KNOWLEDGE CENTER</a>
-                  <a class="nav-link" target="iframe_a" href="Media.html">MEDIA</a>
-                  <a class="nav-link" target="iframe_a" href="Carrers.html">CAREERS </a>
-                  <a class="nav-link" target="iframe_a" href="Blogs.html">BLOGS</a>
-                  <a class="nav-link" target="iframe_a" href="Contact_Us.html">CONTACT US</a>
+                <div class="navbar-nav fw-semibold Navigation-bar">
+                  <a class="nav-link" id="btn-1" target="iframe_a" href="Home.html" onclick="b1()">ABOUT</a>
+                  <a class="nav-link" id="btn-2" target="iframe_a" href="Product.html" onclick="b2()">PRODUCT</a>
+                  <a class="nav-link" id="btn-3" target="iframe_a" href="Distribution.html" onclick="b3()">DISTRIBUTION </a>
+                  <a class="nav-link" id="btn-4" target="iframe_a" href="Services_consultancy.html" onclick="b4()">SERVICES & CONSULTANCY</a>
+                  <a class="nav-link" id="btn-5" target="iframe_a" href="Knowledge-center.html" onclick="b5()">KNOWLEDGE CENTER</a>
+                  <a class="nav-link" id="btn-6" target="iframe_a" href="Media.html" onclick="b6()">MEDIA</a>
+                  <a class="nav-link" id="btn-7" target="iframe_a" href="Carrers.html" onclick="b7()">CAREERS </a>
+                  <a class="nav-link" id="btn-8" target="iframe_a" href="Blogs.html" onclick="b8()">BLOGS</a>
+                  <a class="nav-link" id="btn-9" target="iframe_a" href="Contact_Us.html" onclick="b9()">CONTACT US</a>
                 </div>
               </div>
             </div>
           </nav>
     </div>
-    <iframe src="Home.html" name="iframe_a" style="height:75vh;width:100%; border: none;" title="Iframe Example"></iframe>
+    <iframe src="Home.html" name="iframe_a" style="height:75vh;width:100%; border: none;" title="Iframe Example" id="my_frame"></iframe>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./Assets/js/script.js"></script>
   </body>
 </html>
