@@ -19,6 +19,17 @@ function toggleAttribute() {
     tb7.setAttribute("data-bs-target", "#navbarNavAltMarkup");
     tb8.setAttribute("data-bs-target", "#navbarNavAltMarkup");
     tb9.setAttribute("data-bs-target", "#navbarNavAltMarkup");
+
+    tb1.setAttribute("data-bs-toggle", "collapse");
+    tb2.setAttribute("data-bs-toggle", "collapse");
+    tb3.setAttribute("data-bs-toggle", "collapse");
+    tb4.setAttribute("data-bs-toggle", "collapse");
+    tb5.setAttribute("data-bs-toggle", "collapse");
+    tb6.setAttribute("data-bs-toggle", "collapse");
+    tb7.setAttribute("data-bs-toggle", "collapse");
+    tb8.setAttribute("data-bs-toggle", "collapse");
+    tb9.setAttribute("data-bs-toggle", "collapse");
+
   } else {
     tb1.removeAttribute("data-bs-target");
     tb2.removeAttribute("data-bs-target");
@@ -29,6 +40,16 @@ function toggleAttribute() {
     tb7.removeAttribute("data-bs-target");
     tb8.removeAttribute("data-bs-target");
     tb9.removeAttribute("data-bs-target");
+    
+    tb1.removeAttribute("data-bs-toggle");
+    tb2.removeAttribute("data-bs-toggle");
+    tb3.removeAttribute("data-bs-toggle");
+    tb4.removeAttribute("data-bs-toggle");
+    tb5.removeAttribute("data-bs-toggle");
+    tb6.removeAttribute("data-bs-toggle");
+    tb7.removeAttribute("data-bs-toggle");
+    tb8.removeAttribute("data-bs-toggle");
+    tb9.removeAttribute("data-bs-toggle");
   }
 }
 
@@ -69,6 +90,7 @@ function b1() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Home.html');
 }
 function b2() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -80,6 +102,7 @@ function b2() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Product.html');
 }
 function b3() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -91,6 +114,7 @@ function b3() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Distribution.html');
 }
 function b4() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -102,6 +126,7 @@ function b4() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Services_consultancy.html');
 }
 function b5() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -113,6 +138,7 @@ function b5() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Knowledge-center.html');
 }
 function b6() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -124,6 +150,7 @@ function b6() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Media.html');
 }
 function b7() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -135,6 +162,7 @@ function b7() {
   document.getElementById("btn-7").style.borderBottomColor = "#00a759";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Carrers.html');
 }
 function b8() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -146,6 +174,7 @@ function b8() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "#00a759";
   document.getElementById("btn-9").style.borderBottomColor = "transparent";
+  document.getElementById("my_frame").setAttribute('src','Blogs.html');
 }
 function b9() {
   document.getElementById("btn-1").style.borderBottomColor = "transparent";
@@ -157,4 +186,5 @@ function b9() {
   document.getElementById("btn-7").style.borderBottomColor = "transparent";
   document.getElementById("btn-8").style.borderBottomColor = "transparent";
   document.getElementById("btn-9").style.borderBottomColor = "#00a759";
+  document.getElementById("my_frame").setAttribute('src','Contact_Us.html');
 }

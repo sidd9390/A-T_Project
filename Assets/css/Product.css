@@ -15,3 +15,11 @@
   width: 100%;
   padding: 20px;
 }
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    max-width: 1920px;
+}
